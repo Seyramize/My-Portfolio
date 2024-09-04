@@ -1,10 +1,12 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import vaalLanding from "@/assets/images/vaal.png";
+import symliqLanding from "@/assets/images/symliq.png";
+import emyzeraLanding from "@/assets/images/emyzera.png";
+import uesdLanding from "@/assets/images/uesd.png";
+import techmartLanding from "@/assets/images/techmartgh.png";
+import taamLanding from "@/assets/images/taam.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
-import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
@@ -14,72 +16,72 @@ const portfolioProjects = [
     year: "2024",
     title: "IT Infrastructure Contractor",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Configuring Network adapters" },
+      { title: "Insatlled AP's and routers" },
+      { title: "Running diagnostics on existing network infrastructure" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://taam.world/",
+    image: taamLanding,
   },
   {
     company: "NYCJPM",
     year: "2024",
     title: "Software Developer",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Developing apps" },
+      { title: "Developing the company's website" },
+      { title: "Creating websites for new clients" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://techmartgh.com",
+    image: techmartLanding,
   },
   {
     company: "VAAL Real Estate",
-    year: "2024",
+    year: "2023",
     title: "M.E.P Supervising Engineer",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Supervising Electrical works on the site" },
+      { title: "Supervising Plumbling works on the site" },
+      { title: "Supervising HVAC works on the site" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://vaal.com.gh",
+    image: vaalLanding,
   },
   {
-    company: "VAAL Real Estate",
+    company: "UESD",
     year: "2024",
-    title: "M.E.P Supervising Engineer",
+    title: "Electrical Engineer",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Supervising Electrical Works on the site" },
+      { title: "Simultaneously managing electrical teams on site" },
+      { title: "Relaying site plans to the technicians on site" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://thebftonline.com/2022/05/25/prez-cuts-sod-for-construction-of-ueas-at-bunso/",
+    image: uesdLanding,
   },
   {
-    company: "VAAL Real Estate",
-    year: "2024",
-    title: "M.E.P Supervising Engineer",
+    company: "Symliq Developers",
+    year: "2022",
+    title: "Web/Software Developer",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Developed and managed websites for clients" },
+      { title: "Helped with web app documentations" },
+      { title: "Gave technical advice to clients" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "http://www.symliq.com/",
+    image: symliqLanding,
   },
   {
-    company: "VAAL Real Estate",
-    year: "2024",
-    title: "M.E.P Supervising Engineer",
+    company: "Emyzera Enterprise",
+    year: "2022",
+    title: "Chief Operations Manager",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Managed the digital presence of the facility" },
+      { title: "Created Ads for produts on sale" },
+      { title: "Made use of SEO's" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "#",
+    image: emyzeraLanding,
   },
 ];
 
