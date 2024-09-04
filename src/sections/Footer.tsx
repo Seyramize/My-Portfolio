@@ -4,19 +4,19 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 const footerLinks =[
   {
     title: "Whatsapp",
-    href: "#",
+    href: "https://wa.me/qr/F4XVVMH4ZKWDG1",
   },
   {
     title: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/the_s.eyram?igsh=d21laTZ2bHRmMiFp&utm_source=qr",
   },
   {
     title: "X",
-    href: "#",
+    href: "https://x.com/sarxttech?s=21",
   },
   {
-    title: "Gmail",
-    href: "#",
+    title: "Youtube",
+    href: "https://www.youtube.com/channel/UCPIa_YaAoTMLZKs9592G-VA",
   },
 ]
 
