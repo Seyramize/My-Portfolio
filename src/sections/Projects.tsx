@@ -17,7 +17,7 @@ const portfolioProjects = [
     title: "IT Infrastructure Contractor",
     results: [
       { title: "Configuring Network adapters" },
-      { title: "Insatlled AP's and routers" },
+      { title: "Installed and configured AP's and routers" },
       { title: "Running diagnostics on existing network infrastructure" },
     ],
     link: "https://taam.world/",
