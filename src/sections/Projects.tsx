@@ -4,6 +4,8 @@ import emyzeraLanding from "@/assets/images/emyzera.png";
 import uesdLanding from "@/assets/images/uesd.png";
 import techmartLanding from "@/assets/images/techmartgh.png";
 import taamLanding from "@/assets/images/taam.png";
+import sogefiLanding from "@/assets/images/sogefi.png";
+import woloLanding from "@/assets/images/sogefi.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -11,6 +13,30 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
+  {
+    company: "Wolo Ltd",
+    year: "2025",
+    title: "Fullstack Developer",
+    results: [
+      { title: "Designed and implemented RESTful APIs for seamless frontend-backend communication." },
+      { title: "Optimized database queries and improved application performance." },
+      { title: "Integrated third-party services and APIs to enhance application functionality." },
+    ],
+    link: "https://woloelearning.com/",
+    image: woloLanding,
+  },
+  {
+    company: "Vikram Group",
+    year: "2025",
+    title: "Website Developer",
+    results: [
+      { title: "Developed a comprehensive website" },
+      { title: "Worked with modern static site generators like Jekyll and Hugo." },
+      { title: "Optimized website performance and SEO for better user engagement." },
+    ],
+    link: "https://sogefi.com/",
+    image: sogefiLanding,
+  },
   {
     company: "The Asabir Asset Management",
     year: "2024",
