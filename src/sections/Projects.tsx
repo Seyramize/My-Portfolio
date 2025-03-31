@@ -5,7 +5,7 @@ import uesdLanding from "@/assets/images/uesd.png";
 import techmartLanding from "@/assets/images/techmartgh.png";
 import taamLanding from "@/assets/images/taam.png";
 import sogefiLanding from "@/assets/images/sogefi.png";
-import woloLanding from "@/assets/images/sogefi.png";
+import woloLanding from "@/assets/images/wolo.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
