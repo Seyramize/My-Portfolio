@@ -1,5 +1,5 @@
 import vaalLanding from "@/assets/images/vaal.png";
-import viperLanding from "@/assets/images/viper.png";
+import viperLanding from "@/assets/images/vipers.png";
 import gbaweLanding from "@/assets/images/gbawefound.png";
 import symliqLanding from "@/assets/images/symliq.png";
 import emyzeraLanding from "@/assets/images/emyzera.png";
