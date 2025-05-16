@@ -1,4 +1,6 @@
 import vaalLanding from "@/assets/images/vaal.png";
+import viperLanding from "@/assets/images/viper.png";
+import gbaweLanding from "@/assets/images/gbawefound.png";
 import symliqLanding from "@/assets/images/symliq.png";
 import emyzeraLanding from "@/assets/images/emyzera.png";
 import uesdLanding from "@/assets/images/uesd.png";
@@ -13,6 +15,30 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
+  {
+    company: "Gbawe Basketball Foundation",
+    year: "2025",
+    title: "Website Developer",
+    results: [
+      { title: "Developed and launched a modern, responsive website for the foundation." },
+      { title: "Implemented user-friendly navigation and engaging UI/UX design." },
+      { title: "Integrated donation and event registration features to support the foundation's mission." },
+    ],
+    link: "https://gbawebasketballfoundation.vercel.app/",
+    image: gbaweLanding,
+  },
+  {
+    company: "Gbawe Basketball Academy",
+    year: "2025",
+    title: "Website Developer",
+    results: [
+      { title: "Built a dedicated academy website to showcase programs and achievements." },
+      { title: "Enabled online registration and streamlined communication for students and parents." },
+      { title: "Enhanced site performance and accessibility for a wider audience." },
+    ],
+    link: "https://gbawebball.vercel.app/",
+    image: viperLanding,
+  },
   {
     company: "Wolo Ltd",
     year: "2025",
