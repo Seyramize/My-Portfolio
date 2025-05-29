@@ -36,7 +36,7 @@ const portfolioProjects = [
       { title: "Enabled online registration and streamlined communication for students and parents." },
       { title: "Enhanced site performance and accessibility for a wider audience." },
     ],
-    link: "https://gbawebball.vercel.app/",
+    link: "https://gbawebasketballacademy.vercel.app/",
     image: viperLanding,
   },
   {
