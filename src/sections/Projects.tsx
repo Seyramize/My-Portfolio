@@ -8,6 +8,7 @@ import techmartLanding from "@/assets/images/techmartgh.png";
 import taamLanding from "@/assets/images/taam.png";
 import sogefiLanding from "@/assets/images/sogefi.png";
 import woloLanding from "@/assets/images/wolo.png";
+import beyondLanding from "@/assets/images/beyond.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -15,6 +16,18 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
+  {
+    company: "Beyond Accra",
+    year: "2025",
+    title: "Website Developer",
+    results: [
+      { title: "Developed a modern, responsive website for the company." },
+      { title: "Integrated a booking system and a payment system for the company's services." },
+      { title: "Built a stunning landing page for the company." },
+    ],
+    link: "https://beyondexperience.vercel.app/",
+    image: beyondLanding,
+  },
   {
     company: "Gbawe Basketball Foundation",
     year: "2025",
