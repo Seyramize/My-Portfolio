@@ -8,6 +8,7 @@ import techmartLanding from "@/assets/images/techmartgh.png";
 import taamLanding from "@/assets/images/taam.png";
 import sogefiLanding from "@/assets/images/sogefi.png";
 import woloLanding from "@/assets/images/wolo.png";
+import seyEnergyLanding from "@/assets/images/seyenergy.png";
 import beyondLanding from "@/assets/images/beyond.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
@@ -27,6 +28,18 @@ const portfolioProjects = [
     ],
     link: "https://beyondexperience.vercel.app/",
     image: beyondLanding,
+  },
+  {
+    company: "Sey Energy",
+    year: "2025",
+    title: "Fullstack Developer",
+    results: [
+      { title: "Developed a modern web app for the company" },
+      { title: "Built a stunning landing page for the company." },
+      { title: "Built an inhouse invoice generator for the company" },
+    ],
+    link: "https://seyenergy.vercel.app/",
+    image: seyEnergyLanding,
   },
   {
     company: "Gbawe Basketball Foundation",
