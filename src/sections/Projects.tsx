@@ -20,13 +20,13 @@ const portfolioProjects = [
   {
     company: "Beyond Accra",
     year: "2025",
-    title: "Website Developer",
+    title: "Fullstack Developer",
     results: [
       { title: "Developed a modern, responsive website for the company." },
       { title: "Integrated a booking system and a payment system for the company's services." },
       { title: "Built a stunning landing page for the company." },
     ],
-    link: "https://beyondexperience.vercel.app/",
+    link: "https://experiencesbybeyond.com/",
     image: beyondLanding,
   },
   {
